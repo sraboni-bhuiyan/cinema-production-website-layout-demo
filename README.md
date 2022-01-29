@@ -6,4 +6,8 @@
 
 ### Live Link -
  1. Github : https://sraboni-bhuiyan.github.io/cinema-production-website-layout-demo/
- 2. Netlify : 
+ 2. Netlify : https://cinema-production-website-layout-with-tailwindcss-by-sraboni.netlify.app/
+
+### Overview
+
+![](images/website-layout-overview.gif)
