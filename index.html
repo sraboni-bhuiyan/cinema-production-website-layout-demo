@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Cinema Production</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                colors: {
+                    yellow: "#FECC02",
+                    offBlack: "#131313",
+                    darkGray: "#4E4E4E",
+                },
+              fontFamily: {
+                  bebas: ["Bebas Neue", "cursive"],
+                  montserrat: ["Montserrat","sans-serif"],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- header -->
+    <header class="w-full h-20 flex justify-center absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
+            <h1 class="text-3xl">Cinema Production</h1>
+            <ul class="flex md:flex hidden gap-x-5">
+                <li class="text-xl">Our Movies</li>
+                <li class="text-xl">About Us</li>
+                <li class="text-xl">Services</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main body -->
+    <main>
+        <section class="h-screen bg-[url(images/banner.jpg)] bg-cover flex items-center">
+            <div class="mx-10 font-bebas text-white w-2/4">
+                <p>Cinema Production Studio</p>
+                <h1 class="text-7xl">Cinemas made to</h1>
+                <h1 class="text-7xl text-yellow">perfection</h1>
+                <p class="font-montserrat mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem sed earum omnis laudantium consequatur magnam optio eos magni vel nam repellendus illo enim cupiditate quod error, quia deleniti! Eius, minus!</p>
+                <button class="border-2 px-5 py-2 text-xl mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover Mode</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
