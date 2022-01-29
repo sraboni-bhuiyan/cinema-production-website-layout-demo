@@ -47,7 +47,7 @@
     <main>
         <!-- landing page -->
         <section class="h-screen bg-[url(images/banner.jpg)] bg-cover flex items-center">
-            <div class="mx-10 font-bebas text-white w-2/4">
+            <div class="mx-10 font-bebas text-white w-full md:w-2/4">
                 <p>Cinema Production Studio</p>
                 <h1 class="text-7xl">Cinemas made to</h1>
                 <h1 class="text-7xl text-yellow">perfection</h1>
@@ -60,11 +60,11 @@
         <section class="p-10">
             <div class="p-10 border-2 border-offBlack">
                 <!-- upper part -->
-                <div class="flex gap-x-14 font-bebas">
-                    <div class="w-2/4 h-[480px] bg-[url(images/camera-man.jpg)] bg-cover bg-center flex justify-center items-end mb-10">
-                        <h1 class="text-4xl text-offBlack bg-white w-11/12 text-center drop-shadow-2xl py-2 rounded-md -mb-6">25 years of experience</h1>
+                <div class="lg:flex gap-x-14 font-bebas">
+                    <div class="w-full lg-w-2/4 md:h-[500px] h-[300px] bg-[url(images/camera-man.jpg)] bg-cover bg-center flex justify-center items-end mb-10">
+                        <h1 class="text-xl md:text-4xl text-offBlack bg-white w-11/12 text-center drop-shadow-2xl py-2 rounded-md -mb-6">25 years of experience</h1>
                     </div>
-                    <div class="w-2/4 h-full">
+                    <div class="w-full lg-w-2/4 h-full">
                         <p>About us</p>
                         <h1 class="text-7xl">Filming experience</h1>
                         <h1 class="text-7xl text-yellow">just got better</h1>
@@ -72,13 +72,13 @@
                         <button class="border-2 border-black px-5 py-2 text-xl mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover Mode</button>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-x-20 mt-10">
-                    <div class="border-t-4 border-offBlack w-full">
+                <div class="grid lg:grid-cols-3 gap-x-20 mt-10">
+                    <div class="border-t-4 border-offBlack w-full mb-20 lg:mb-0">
                         <h1 class="text-5xl font-bebas mt-5">Our Vision</h1>
                         <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, rem.</p>
                     </div>
-                    <div class="border-t-4 border-offBlack w-full">
-                        <h1 class="text-5xl font-bebas mt-5">Our Mision</h1>
+                    <div class="border-t-4 border-offBlack w-full  mb-20 lg:mb-0">
+                        <h1 class="text-5xl font-bebas mt-5">Our Mission</h1>
                         <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, rem.</p>
                     </div>
                     <div class="border-t-4 border-offBlack w-full">
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <!-- section of movies -->
-            <div class="mt-10 grid grid-cols-4 gap-x-10">
+            <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div class="border-2 border-white w-full h-[450px] p-5">
                     <div class="w-full h-full bg-[url(images/tenet.jpg)] bg-cover bg-center"></div>
                 </div>
